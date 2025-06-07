@@ -33,7 +33,7 @@ Gracias por la oportunidad. Este repositorio contiene las respuestas a la prueba
 
 *   **Respuesta Correcta:** `1. GET`
 *   **Justificación:** El verbo `GET` es el estándar para la recuperación de datos. Es semánticamente correcto, idempotente y, crucialmente, sus respuestas pueden ser cacheadas, lo que lo convierte en la opción más performante para operaciones de solo lectura.
-*   **Ilustración en Código:** He implementado un endpoint `GET /api/trades` para recuperar órdenes de trading.
+*   **Ilustración en Código:** He implementado un endpoint `GET /api/orders` para recuperar órdenes de trading.
     *   **Ruta:** `src\orders\infraestructure\routes\order.router.ts`
     *   **Controlador:** `src\orders\infraestructure\controllers\order.controller.ts`
     *   **Servicio:** `src\orders\aplication\services\order.service.ts`
